@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#services {
+    /* background-color: orange; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.servicesInner {
+    /* background-color: teal; */
+    width: 50%;
+    height: 100%;
+    margin: 0px 20px;
+}
+
+.fleXoNE {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.serv_innerCar {
+    width: 45%;
+    height: 300px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.servicesInner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.firstBox {
+    padding: 50px;
+}
